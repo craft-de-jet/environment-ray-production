@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: ray-production
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: ray-production
+  pipelines: {}
